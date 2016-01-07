@@ -1,0 +1,24 @@
+{
+  "name": "daftarburuan",
+  "version": "1.0.0",
+  "description": "Daftar buruan produk!",
+  "main": "app.go",
+  "scripts": {
+    "start": "echo \"Error: no start script yet\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": [
+    "Prasetyo Wicaksono <jowy@oiry.net>",
+    "Achmad Mahardi <achmad@mahardi.me>"
+  ],
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "webpack": "^1.12.10",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "fetch": "^1.0.0"
+  }
+}
