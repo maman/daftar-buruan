@@ -83,7 +83,7 @@
   <footer>
     <div class="author">
       Official website:
-      {{ if env "GOROOT" }}
+      {{ if env "ENV" | eq "DEVELOPMENT" }}
         Hello World
       {{ end }}
       <a href="http://{{.Website}}">{{.Website}}</a> /
