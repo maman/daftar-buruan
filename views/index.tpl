@@ -83,6 +83,9 @@
   <footer>
     <div class="author">
       Official website:
+      {{ if env "ENV" | eq "DEVELOPMENT" }}
+        Hello World
+      {{ end }}
       <a href="http://{{.Website}}">{{.Website}}</a> /
       Contact me:
       <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
